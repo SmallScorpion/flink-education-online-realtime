@@ -2,7 +2,6 @@ package com.warehouse.education.etl
 import java.util.Properties
 
 import com.alibaba.fastjson.JSONObject
-import com.warehouse.education.etl.OdsEtlData1.{BOOTSTRAP_SERVERS, GROUP_ID, TOPIC}
 import com.warehouse.education.model.{DwdKafkaProducerSerializationSchema, GlobalConfig, TopicAndValue, TopicAndValueDeserializationSchema}
 import com.warehouse.education.util.ParseJsonData
 import org.apache.flink.api.common.restartstrategy.RestartStrategies
